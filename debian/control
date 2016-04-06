@@ -1,0 +1,15 @@
+Source: samba-dhcpd-update
+Section: main
+Priority: extra
+Maintainer:  <stuartl@localhost>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/vrtsystems/aur-samba-dhcpd-update
+Vcs-Git: git://anonscm.debian.org/collab-maint/samba-dhcpd-update.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/samba-dhcpd-update.git
+
+Package: samba-dhcpd-update
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Port of Arch Linux's samba-dhcpd-update to Debian/Ubuntu
